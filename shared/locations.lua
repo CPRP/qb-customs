@@ -339,12 +339,18 @@ Config.Locations = {
             enabled = true,
         },
         categories = {
+            mods = true,
+            turbo = true,
             repair = true,
             respray = true,
             liveries = true,
+            wheels = true,
             tint = true,
-            extras = true,
             plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
             cosmetics = true,
         },
         drawtextui = {
@@ -368,12 +374,18 @@ Config.Locations = {
             enabled = true,
         },
         categories = {
+            mods = true,
+            turbo = true,
             repair = true,
             respray = true,
             liveries = true,
+            wheels = true,
             tint = true,
-            extras = true,
             plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
             cosmetics = true,
         },
         drawtextui = {
@@ -385,6 +397,102 @@ Config.Locations = {
         },
         zones = {
             { coords = vector3(340.48, -570.65, 28.8), length = 9.4, width = 4.2, heading = 340.0, minZ = 27.5, maxZ = 31.5 },
+        }
+    },
+    ['LSFD'] = {
+        settings = {
+            label = 'LSFD Motorworks',
+            welcomeLabel = "Welcome to LSFD Motorworks!",
+            enabled = true,
+        },
+        categories = {
+            mods = true,
+            turbo = true,
+            repair = true,
+            respray = true,
+            liveries = true,
+            wheels = true,
+            tint = true,
+            plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
+            cosmetics = true,
+        },
+        drawtextui = {
+            text = "LSFD Motorworks",
+        },
+        restrictions = {
+            job = { 'ambulance' },
+            allowedClasses = { 18 },
+        },
+        zones = {
+            { coords = vector3(-641.14, -77.54, 40.11), length = 9.0, width = 4.0, heading = 355.14, minZ = 35.0, maxZ = 45.0 },
+        }
+    },
+    ['SAHP'] = {
+        settings = {
+            label = 'SAHP Motorworks',
+            welcomeLabel = "Welcome to SAHP Motorworks!",
+            enabled = true,
+        },
+        categories = {
+            mods = true,
+            turbo = true,
+            repair = true,
+            respray = true,
+            liveries = true,
+            wheels = true,
+            tint = true,
+            plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
+            cosmetics = true,
+        },
+        drawtextui = {
+            text = "SAHP Motorworks",
+        },
+        restrictions = {
+            job = { 'police' },
+            allowedClasses = { 18 },
+        },
+        zones = {
+            { coords = vector3(1569.76, 855.77, 77.49), length = 9.0, width = 4.0, heading = 244.77, minZ = 72.0, maxZ = 82.0 },
+        }
+    },
+    ['BCSO'] = {
+        settings = {
+            label = 'BCSO Motorworks',
+            welcomeLabel = "Welcome to BCSO Motorworks!",
+            enabled = true,
+        },
+        categories = {
+            mods = true,
+            turbo = true,
+            repair = true,
+            respray = true,
+            liveries = true,
+            wheels = true,
+            tint = true,
+            plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
+            cosmetics = true,
+        },
+        drawtextui = {
+            text = "BCSO Motorworks",
+        },
+        restrictions = {
+            job = { 'police' },
+            allowedClasses = { 18 },
+        },
+        zones = {
+            { coords = vector3(1861.34, 3706.78, 33.37), length = 9.0, width = 4.0, heading = 212.22, minZ = 28.0, maxZ = 38.0 },
         }
     },
 }
