@@ -536,4 +536,86 @@ Config.Locations = {
             { coords = vector3(993.96, -125.65, 74.06), length = 9.4, width = 4.0, heading = 65.2, minZ = 71.88, maxZ = 77.48 },
         }
     },
+    ['TheSaints'] = {
+        settings = {
+            label = 'The Saints Motorworks',
+            welcomeLabel = "Welcome to The Saints Motorworks!",
+            enabled = true,
+        },
+        blip = {
+            label = 'The Saints Motorworks',
+            coords = vector3(-806.46, 162.53, 71.54),
+            sprite = 72,
+            scale = 0.65,
+            color = 0,
+            display = 4,
+            enabled = false,
+        },
+        categories = {
+            mods = true,
+            turbo = true,
+            repair = true,
+            respray = true,
+            liveries = true,
+            wheels = true,
+            tint = true,
+            plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
+            cosmetics = true,
+        },
+        drawtextui = {
+            text = "The Saints Motorworks"
+        },
+        restrictions = { 
+            gang = { 'thesaints' },
+            deniedClasses = {  },
+        },
+        zones = {
+            { coords = vector3(-806.46, 162.53, 71.54), length = 9.4, width = 4.0, heading = 105.08, minZ = 68.88, maxZ = 74.48 },
+        }
+    },
+    ['Devils Sons'] = {
+        settings = {
+            label = 'The Devils Sons Motorworks',
+            welcomeLabel = "Welcome to The Devils Sons Motorworks!",
+            enabled = true,
+        },
+        blip = {
+            label = 'The Devils Sons Motorworks',
+            coords = vector3(1990.57, 3029.68, 47.06),
+            sprite = 72,
+            scale = 0.65,
+            color = 0,
+            display = 4,
+            enabled = false,
+        },
+        categories = {
+            mods = true,
+            turbo = true,
+            repair = true,
+            respray = true,
+            liveries = true,
+            wheels = true,
+            tint = true,
+            plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
+            cosmetics = true,
+        },
+        drawtextui = {
+            text = "The Devils Sons Motorworks"
+        },
+        restrictions = { 
+            gang = { 'devilssons' },
+            deniedClasses = {  },
+        },
+        zones = {
+            { coords = vector3(1990.57, 3029.68, 47.06), length = 9.4, width = 4.0, heading = 67.19, minZ = 44.88, maxZ = 50.48 },
+        }
+    },
 }
