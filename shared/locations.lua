@@ -495,4 +495,45 @@ Config.Locations = {
             { coords = vector3(1861.34, 3706.78, 33.37), length = 9.0, width = 4.0, heading = 212.22, minZ = 28.0, maxZ = 38.0 },
         }
     },
+    ['YellowGang'] = {
+        settings = {
+            label = 'Yellow Gang Motorworks',
+            welcomeLabel = "Welcome to Yellow Gang's Motorworks!",
+            enabled = true,
+        },
+        blip = {
+            label = 'Yellow Gang Motorworks',
+            coords = vector3(993.96, -125.65, 74.06),
+            sprite = 72,
+            scale = 0.65,
+            color = 0,
+            display = 4,
+            enabled = false,
+        },
+        categories = {
+            mods = true,
+            turbo = true,
+            repair = true,
+            respray = true,
+            liveries = true,
+            wheels = true,
+            tint = true,
+            plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
+            cosmetics = true,
+        },
+        drawtextui = {
+            text = "Yellow Gang Motorworks"
+        },
+        restrictions = { 
+            gang = { 'yellowgang' },
+            deniedClasses = {  },
+        },
+        zones = {
+            { coords = vector3(993.96, -125.65, 74.06), length = 9.4, width = 4.0, heading = 65.2, minZ = 71.88, maxZ = 77.48 },
+        }
+    },
 }
